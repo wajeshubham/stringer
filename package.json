@@ -1,6 +1,6 @@
 {
-  "name": "stringer",
-  "version": "0.1.0",
+  "name": "go-stringer",
+  "version": "0.1.1",
   "description": "\"Operate on strings\"",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "go-npm": "^0.1.9"
   },
   "goBinary": {
-    "name": "stringer",
+    "name": "go-stringer",
     "path": "./dist",
     "url": "https://github.com/wajeshubham/stringer/releases/download/v{{version}}/stringer_{{version}}_{{platform}}_{{arch}}.tar.gz"
   }
