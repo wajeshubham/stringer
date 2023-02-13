@@ -1,0 +1,34 @@
+{
+  "name": "stringer",
+  "version": "0.0.1",
+  "description": "\"Operate on strings\"",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "go-npm install",
+    "preuninstall": "go-npm uninstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wajeshubham/stringer.git"
+  },
+  "keywords": [
+    "go-cli",
+    "cli",
+    "stringer"
+  ],
+  "author": "Shubham Waje",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wajeshubham/stringer/issues"
+  },
+  "homepage": "https://github.com/wajeshubham/stringer#readme",
+  "dependencies": {
+    "global": "^4.4.0",
+    "go-npm": "^0.1.9"
+  },
+  "goBinary": {
+    "name": "stringer",
+    "path": "./dist",
+    "url": "https://github.com/wajeshubham/stringer/releases/download/v{{version}}/stringer_{{version}}_{{platform}}_{{arch}}.tar.gz"
+  }
+}
